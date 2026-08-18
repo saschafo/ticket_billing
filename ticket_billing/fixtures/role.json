@@ -1,0 +1,32 @@
+[
+ {
+  "desk_access": 0,
+  "disabled": 0,
+  "docstatus": 0,
+  "doctype": "Role",
+  "is_custom": 1,
+  "name": "Mitarbeiter",
+  "role_name": "Mitarbeiter",
+  "search_bar": 1
+ },
+ {
+  "desk_access": 0,
+  "disabled": 0,
+  "docstatus": 0,
+  "doctype": "Role",
+  "is_custom": 1,
+  "name": "Abteilungsleiter",
+  "role_name": "Abteilungsleiter",
+  "search_bar": 1
+ },
+ {
+  "desk_access": 0,
+  "disabled": 0,
+  "docstatus": 0,
+  "doctype": "Role",
+  "is_custom": 1,
+  "name": "Geschäftsführung",
+  "role_name": "Geschäftsführung",
+  "search_bar": 1
+ }
+]

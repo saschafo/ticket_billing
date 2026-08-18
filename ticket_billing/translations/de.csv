@@ -1,0 +1,87 @@
+Guest,Gast
+"Please log in to change the language.","Bitte melden Sie sich an, um die Sprache zu ändern."
+Language {0} is not available.,Die Sprache {0} ist nicht verfügbar.
+"A customer can only be set on external tickets.","Ein Kunde kann nur bei externen Tickets gesetzt werden."
+Invalid customer,Ungültiger Kunde
+"No department could be determined for this ticket. Set a department on the ticket, on the email account, or configure a default department in Ticket Billing Settings.","Für dieses Ticket konnte keine Abteilung ermittelt werden. Tragen Sie eine Abteilung am Ticket oder am Postfach ein, oder hinterlegen Sie eine Standardabteilung in den Ticket-Billing-Einstellungen."
+No department could be determined.,Es konnte keine Abteilung ermittelt werden.
+Department missing,Abteilung fehlt
+Only the department lead can reassign a ticket.,Nur die Abteilungsleitung kann ein Ticket umverteilen.
+Not allowed,Nicht erlaubt
+{0} is not a member of department {1}.,{0} gehört nicht zur Abteilung {1}.
+Invalid assignment,Ungültige Zuweisung
+Invalid origin {0}.,Ungültige Herkunft {0}.
+You are not allowed to access department {0}.,Sie haben keinen Zugriff auf die Abteilung {0}.
+This evaluation is restricted to management.,Diese Auswertung ist der Geschäftsführung vorbehalten.
+"Unknown assignment strategy {0}. Available: {1}","Unbekannte Zuweisungsregel {0}. Verfügbar: {1}"
+"A timer is already running for ticket {0}. Stop it first.","Für Ticket {0} läuft bereits ein Timer. Beenden Sie ihn zuerst."
+Timer already running,Timer läuft bereits
+Your user account is not linked to an employee record.,Ihr Benutzerkonto ist mit keinem Mitarbeiterdatensatz verknüpft.
+No employee record,Kein Mitarbeiterdatensatz
+The recorded duration must be greater than zero.,Die erfasste Dauer muss größer als null sein.
+No timer is running.,Es läuft kein Timer.
+Nothing to stop,Nichts zu beenden
+"The timer has been running for less than a minute. Keep working, or discard it.","Der Timer läuft seit weniger als einer Minute. Arbeiten Sie weiter, oder verwerfen Sie ihn."
+Too short to record,Zu kurz für eine Buchung
+Automatic assignment,Automatische Zuweisung
+Assign tickets automatically,Tickets automatisch zuweisen
+"If assignment is off, new tickets stay unassigned and the department lead distributes them manually.","Ist die Zuweisung aus, bleiben neue Tickets unzugewiesen und die Abteilungsleitung verteilt sie von Hand."
+Assignment strategy,Zuweisungsregel
+"Key of a registered strategy, e.g. by_workload. See ticket_billing/assignment/strategies/ for available ones.","Schlüssel einer registrierten Regel, z. B. by_workload. Verfügbare Regeln siehe ticket_billing/assignment/strategies/."
+Default department,Standardabteilung
+"Department for tickets that could not be routed — for example from a mailbox without a department.","Abteilung für Tickets, denen keine zugeordnet werden konnte — etwa aus einem Postfach ohne hinterlegte Abteilung."
+Time tracking,Zeiterfassung
+Default activity type,Standard-Tätigkeit
+Applied to new time entries unless something else is given.,"Wird in neue Zeiteinträge übernommen, wenn nichts anderes angegeben ist."
+Responsible department,Zuständige Abteilung
+Determines who can see the ticket and who it is assigned to.,"Bestimmt, wer das Ticket sieht und wem es zugewiesen wird."
+Origin,Herkunft
+Assigned employee,Zugewiesener Mitarbeiter
+Set automatically. The department lead can reassign at any time.,Wird automatisch gesetzt. Die Abteilungsleitung kann jederzeit umverteilen.
+Department for incoming tickets,Abteilung für eingehende Tickets
+"Tickets from this mailbox get this department. Without an entry the default department from Ticket Billing Settings applies.","Tickets aus diesem Postfach bekommen diese Abteilung. Ohne Eintrag greift die Standardabteilung aus den Ticket-Billing-Einstellungen."
+Started at,Gestartet um
+Note,Notiz
+Ticket Billing Settings,Ticket-Billing-Einstellungen
+Ticket Timer,Ticket-Timer
+Internal,Intern
+External,Extern
+A single entry cannot exceed {0} hours.,Ein einzelner Eintrag darf {0} Stunden nicht überschreiten.
+Duration too long,Dauer zu lang
+Warn after (hours),Warnen nach (Stunden)
+"A running timer is highlighted once it exceeds this many hours. Usually it means someone forgot to stop it.","Ein laufender Timer wird ab dieser Dauer hervorgehoben. Meist heißt das, dass jemand vergessen hat, ihn zu stoppen."
+"This entry has already been submitted and can no longer be changed.","Dieser Eintrag ist bereits gebucht und kann nicht mehr geändert werden."
+Already submitted,Bereits gebucht
+You may only submit entries from your own department.,Sie können nur Einträge Ihrer eigenen Abteilung buchen.
+You may only change your own entries.,Sie können nur eigene Einträge ändern.
+"This entry has several time logs and cannot be edited here.","Dieser Beleg enthält mehrere Zeitzeilen und kann hier nicht bearbeitet werden."
+Not editable,Nicht bearbeitbar
+{0} time entries in {1} are waiting to be submitted,{0} Zeiteinträge in {1} warten auf die Buchung
+"Oldest entries are more than {0} days old. Total: {1} hours.","Die ältesten Einträge liegen über {0} Tage zurück. Summe: {1} Stunden."
+Remind about drafts after (days),An Entwürfe erinnern nach (Tagen)
+"The department lead gets a daily notification about draft time entries older than this.","Die Abteilungsleitung bekommt täglich einen Hinweis auf Zeiteinträge im Entwurf, die älter sind."
+Departments,Abteilungen
+Employees,Mitarbeiter
+Trend,Verlauf
+Tickets,Tickets
+Resolved,Erledigt
+External share %,Anteil extern %
+Avg response (h),Ø Reaktion (Std.)
+Avg resolution (h),Ø Lösung (Std.)
+Hours total,Stunden gesamt
+Hours billable,Stunden abrechenbar
+Hours internal,Stunden intern
+Hours submitted,Stunden gebucht
+Hours draft,Stunden im Entwurf
+Open tickets,Offene Tickets
+Hours,Stunden
+Period,Zeitraum
+Total,Gesamt
+This evaluation is restricted to management.,Diese Auswertung ist der Geschäftsführung vorbehalten.
+Only administrators can manage demo data.,Nur Administratoren können Demo-Daten verwalten.
+Demo data is already installed. Remove it first.,Demo-Daten sind bereits installiert. Bitte zuerst entfernen.
+Already installed,Bereits installiert
+No demo data is installed.,Es sind keine Demo-Daten installiert.
+{0} is not a demo user.,{0} ist kein Demo-Benutzer.
+"No company exists. Run the ERPNext setup wizard first.","Es existiert keine Firma. Bitte zuerst den ERPNext-Einrichtungsassistenten ausführen."
+Setup incomplete,Einrichtung unvollständig

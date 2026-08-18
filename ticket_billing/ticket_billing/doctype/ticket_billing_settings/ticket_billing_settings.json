@@ -1,0 +1,112 @@
+{
+ "actions": [],
+ "allow_rename": 0,
+ "creation": "2026-08-17 21:00:00.000000",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "assignment_section",
+  "auto_assign",
+  "assignment_strategy",
+  "column_break_assignment",
+  "default_department",
+  "timesheet_section",
+  "default_activity_type",
+  "column_break_timesheet",
+  "timer_warning_hours",
+  "draft_reminder_days"
+ ],
+ "fields": [
+  {
+   "fieldname": "assignment_section",
+   "fieldtype": "Section Break",
+   "label": "Automatic assignment"
+  },
+  {
+   "default": "1",
+   "description": "If assignment is off, new tickets stay unassigned and the department lead distributes them manually.",
+   "fieldname": "auto_assign",
+   "fieldtype": "Check",
+   "label": "Assign tickets automatically"
+  },
+  {
+   "default": "by_workload",
+   "description": "Key of a registered strategy, e.g. by_workload. See ticket_billing/assignment/strategies/ for available ones.",
+   "fieldname": "assignment_strategy",
+   "fieldtype": "Data",
+   "label": "Assignment strategy",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_assignment",
+   "fieldtype": "Column Break"
+  },
+  {
+   "description": "Department for tickets that could not be routed — for example from a mailbox without a department.",
+   "fieldname": "default_department",
+   "fieldtype": "Link",
+   "label": "Default department",
+   "options": "Department"
+  },
+  {
+   "fieldname": "timesheet_section",
+   "fieldtype": "Section Break",
+   "label": "Time tracking"
+  },
+  {
+   "description": "Applied to new time entries unless something else is given.",
+   "fieldname": "default_activity_type",
+   "fieldtype": "Link",
+   "label": "Default activity type",
+   "options": "Activity Type"
+  },
+  {
+   "fieldname": "column_break_timesheet",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "4",
+   "description": "A running timer is highlighted once it exceeds this many hours. Usually it means someone forgot to stop it.",
+   "fieldname": "timer_warning_hours",
+   "fieldtype": "Float",
+   "label": "Warn after (hours)",
+   "precision": "2"
+  },
+  {
+   "default": "3",
+   "description": "The department lead gets a daily notification about draft time entries older than this.",
+   "fieldname": "draft_reminder_days",
+   "fieldtype": "Int",
+   "label": "Remind about drafts after (days)"
+  }
+ ],
+ "index_web_pages_for_search": 0,
+ "issingle": 1,
+ "links": [],
+ "modified": "2026-08-17 21:00:00.000000",
+ "modified_by": "Administrator",
+ "module": "Ticket Billing",
+ "name": "Ticket Billing Settings",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "email": 1,
+   "print": 1,
+   "read": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "read": 1,
+   "role": "Abteilungsleiter"
+  }
+ ],
+ "quick_entry": 0,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1
+}

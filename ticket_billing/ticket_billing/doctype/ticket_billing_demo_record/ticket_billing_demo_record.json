@@ -1,0 +1,70 @@
+{
+ "actions": [],
+ "autoname": "hash",
+ "creation": "2026-08-17 22:00:00.000000",
+ "description": "Verzeichnis der von der Demo-Installation angelegten Datensätze. Grundlage für das restlose Entfernen.",
+ "doctype": "DocType",
+ "editable_grid": 0,
+ "engine": "InnoDB",
+ "field_order": [
+  "ref_doctype",
+  "ref_name",
+  "column_break_1",
+  "batch",
+  "sort_order"
+ ],
+ "fields": [
+  {
+   "fieldname": "ref_doctype",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Document type",
+   "options": "DocType",
+   "reqd": 1
+  },
+  {
+   "fieldname": "ref_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Document",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_1",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "batch",
+   "fieldtype": "Data",
+   "label": "Batch"
+  },
+  {
+   "description": "Reihenfolge des Anlegens. Beim Entfernen wird absteigend gelöscht, damit keine Verweise brechen.",
+   "fieldname": "sort_order",
+   "fieldtype": "Int",
+   "label": "Order"
+  }
+ ],
+ "index_web_pages_for_search": 0,
+ "links": [],
+ "modified": "2026-08-17 22:00:00.000000",
+ "modified_by": "Administrator",
+ "module": "Ticket Billing",
+ "name": "Ticket Billing Demo Record",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "write": 1
+  }
+ ],
+ "sort_field": "sort_order",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 0
+}

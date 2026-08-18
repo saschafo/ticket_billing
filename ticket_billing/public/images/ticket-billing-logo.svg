@@ -1,0 +1,11 @@
+<svg width="118" height="118" viewBox="0 0 118 118" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Abgerundetes Quadrat im selben Zuschnitt wie die uebrigen App-Kacheln
+       (118x118, Radius 20), damit es im Umschalter nicht aus der Reihe faellt.
+       Blau wie die Grundfarbe der Oberflaeche (color-primary). -->
+  <path d="M0 20C0 8.954 8.954 0 20 0h78c11.046 0 20 8.954 20 20v78c0 11.046-8.954 20-20 20H20C8.954 118 0 109.046 0 98V20Z" fill="#2563EB"/>
+  <!-- Ticket mit Einkerbungen links und rechts: die Form, die man ohne
+       Beschriftung als Ticket erkennt. -->
+  <path d="M26 44c0-3.314 2.686-6 6-6h54c3.314 0 6 2.686 6 6v6a9 9 0 0 0 0 18v6c0 3.314-2.686 6-6 6H32c-3.314 0-6-2.686-6-6v-6a9 9 0 0 0 0-18v-6Z" fill="#fff"/>
+  <!-- Perforation als Trennlinie zwischen Abriss und Hauptteil. -->
+  <path d="M62 44v6M62 56v6M62 68v6" stroke="#2563EB" stroke-width="3" stroke-linecap="round"/>
+</svg>
